@@ -1,0 +1,25 @@
+
+
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 500;
+    font-style: normal;
+}  
+
+#title-style {
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: .2em;
+    border-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-image {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
