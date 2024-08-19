@@ -1,5 +1,5 @@
 .links {
-    margin-top: 9.555px;
+    margin-top: 9.8px;
     color: rgb(163, 163, 163);
     font-size: 100px;
 }
@@ -11,35 +11,28 @@
     transition: color, .2s ease-in;
 }
 
+body {
+    background-color: aqua;
+}
 
 .navbar-links:not(:hover) {
     font-size: 100%;
     transition: font-size, .2s ease-out;
 }
 
-
-.baskervville-sc-regular {
-    font-family: "Baskervville SC", serif;
-    font-weight: 500;
-    font-style: normal;
-}  
-
-#title-style {
-    margin-left: 50px;
-    margin-top: 40px;
-    border-radius: .2em;
-    border-color: white;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 #logo-image {
-    width: 66px;
-    height: 66px;
+    width: 57px;
+    height: 57px;
     border-radius: 50%;
     margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     border: 1.22px solid white;
 }
